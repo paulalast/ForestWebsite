@@ -1,0 +1,13 @@
+@mixin heroImages($bgImg) {
+    background-image: $shadow, url($bgImg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 110%;
+    background-attachment: fixed;
+
+
+}
+
+@mixin burgerBtn{
+    
+}
