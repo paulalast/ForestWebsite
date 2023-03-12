@@ -166,8 +166,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(0, 0, 0, 0.8))), url("../img/jungle-1807476_1920.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 100%), url("../img/jungle-1807476_1920.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(0, 0, 0, 0.8))), url("./../img/jungle-1807476_1920.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 100%), url("./../img/jungle-1807476_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 110%;
@@ -335,8 +335,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(0, 0, 0, 0.8))), url("../img/girl-5785590_1920.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 100%), url("../img/girl-5785590_1920.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, to(rgba(0, 0, 0, 0.8))), url("./../img/girl-5785590_1920.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8) 100%), url("./../img/girl-5785590_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 110%;
