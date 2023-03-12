@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forest</title>
+    <title>Forest Group</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,7 +17,13 @@
 </head>
 
 <body>
-    <nav class="nav">
+    <button class="hamburger" type="button">
+
+    </button>
+
+    <div class="nav-mobile"></div>
+
+    <nav class="nav-desktop">
         <div class="wrapper">
             <h1 class="company_name"> <img src="./img/icons/pine-tree (1).png"
                     alt="tree"> Forest</h1>
@@ -25,7 +31,8 @@
                 <a href="#home" class="nav__item">Home</a>
                 <a href="#aboutus" class="nav__item">O&nbsp;nas</a>
                 <a href="#offers" class="nav__item">Oferta</a>
-                <a href="#contact" class="nav__item">Kontakt</a>
+                <a href="contact.html" target="_blank" rel="noopener"
+                    class="nav__item">Kontakt</a>
             </div>
         </div>
         <hr>
@@ -39,11 +46,46 @@
         </div>
 
     </header>
-    
+    <main class="main">
 
 
 
-    <!-- <footer>
+
+        <section class="sitemap">
+            <div class="sitemap__wrapper">
+                <div class="logo__box">
+                    <img src="./img/icons/pine-tree (1).png" alt="">
+                    <h1 class="company__name">Forest</h1>
+                </div>
+                <div class="sitemap__box">
+                    <ul class="sitemap__box-links">
+                        <h3>O nas</h3>
+                        <li><a href="#">Historia</a> </li>
+                        <li><a href="#">Parki</a></li>
+                        <li><a href="#">Opinie</a> </li>
+                    </ul>
+                    <ul class="sitemap__box-links">
+                        <h3>Nasza firma</h3>
+                        <li><a href="#">Praca</a> </li>
+                        <li><a href="#">Kadry</a></li>
+                        <li><a href="#">Zarząd</a> </li>
+                    </ul>
+                    <ul class="sitemap__box-links">
+                        <h3>Dokumenty</h3>
+                        <li><a href="#">Wnioski</a> </li>
+                        <li><a href="#">Rezerwacje</a></li>
+                        <li><a href="#"> &nbsp;</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
         <div class="footer">
             <hr>
             <p class="footer__bottom-text">&copy; <span class="footer__year">
@@ -51,7 +93,7 @@
                 Forest Group Company Ltd.</p>
         </div>
 
-    </footer> -->
+    </footer>
 
 
     <script src="./js/script.js"></script>
