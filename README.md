@@ -1,3 +1,4 @@
 # ForestWebsite
-HTML, J
-https://paulalast.github.io/ForestWebsite/
+HTML, CSS, JS
+https://paulalast.github.io/ForestWebsite2023/
+
